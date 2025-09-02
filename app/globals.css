@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body { @apply bg-[#0b0f1a] text-white; }
+.container { @apply max-w-6xl mx-auto px-4; }
+.card { @apply bg-[#101627] rounded-2xl shadow-soft border border-white/10; }
+.btn { @apply inline-flex items-center justify-center rounded-xl px-4 py-2 font-semibold transition bg-brand-500 hover:bg-brand-400 active:scale-95; }
+.navlink { @apply text-sm font-medium opacity-90 hover:opacity-100 transition; }
